@@ -8,10 +8,10 @@ chars += string.digits
 chars += string.punctuation
 chars += string.ascii_uppercase
 
-password = " "
+mypassword = " "
 
 for i in range(length):
-     password += random.choice(chars)
+     mypassword += random.choice(chars)
     
 
-print("Your Password Is:",password)
+print("Your Password Is:",mypassword)
